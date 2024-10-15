@@ -12,7 +12,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/flowchartsman/swaggerui"
+	"github.com/chrishrb/swaggerui"
 )
 
 //go:embed swagger.json
@@ -25,3 +25,7 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8080", nil))
 }
 ```
+
+## Original project
+
+https://github.com/flowchartsman/swaggerui

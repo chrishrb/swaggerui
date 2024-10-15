@@ -1,3 +1,3 @@
-module github.com/flowchartsman/swaggerui
+module github.com/chrishrb/swaggerui
 
 go 1.16
